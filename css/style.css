@@ -13,7 +13,7 @@
 .debug .header-container {
     background-color: aquamarine;
     height: 50PX;
-    width: 60%;
+
 }
 
 
@@ -27,23 +27,15 @@
 
 .debug .main-container {
     background-color: blueviolet;
-    width: 60%;
-    height: 85vh;
 }
 
 .debug .card {
     background-color: hotpink;
     height: 400px;
-    width: 300px;
 }
 
 
 
-.card{
-    margin: 7px;
-    justify-content: center;
-    display: flex;
-}
 
 
 
@@ -58,8 +50,7 @@
 .debug .footer-container {
 
     background-color: rgb(0, 132, 255);
-    width: 60%;
-    height: 80PX;
+    
 
 
 
@@ -75,6 +66,24 @@
     box-sizing: border-box;
 }
 
+
+footer{
+ background-color: #1a1a1a;
+ height: 80px;
+    
+}
+header{
+    background-color: orange;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    z-index: 10000;
+}
+
+
+img{
+    max-height: 400px;
+}
 /* #endregion COMMON*/
 
 
@@ -114,5 +123,125 @@
     justify-content: space-around;
 }
 
+.jc-between {
+
+    justify-content: space-between;
+}
+
 
 /* #endregion UTILITY*/
+
+
+.discount{
+    background-color: red;
+    left: 0;
+    bottom: 30px;
+    color: white;
+}
+
+.sostenibility{
+    background-color: green;
+    left: 40px;
+    bottom: 30px;
+    color: white;
+}
+
+.sostenibility-six{
+    left: 0px;
+    background-color: green;
+    bottom: 30px;
+    color: white;
+
+}
+
+
+
+
+.like{
+ right: 0;
+ font-size: 30px;
+ padding-left: 10px;
+ padding-right: 10px;
+ background-color: white;
+}
+
+.brand{
+    font-size: 12px;
+}
+
+.price, .old-price {
+    font-size: 12px;
+}
+
+.price{
+    color: red;
+    font-weight: 400;
+}
+
+.old-price{
+    text-decoration:line-through;
+}
+
+.card{
+   justify-content: center;
+    display: flex;
+    width: 300px;
+    height: 400px;
+}
+
+.footer-container {
+    width: 60%;
+    height: 80PX;
+    color: white;
+}
+
+.main-container {
+    width: 60%;
+    padding-top: 5rem;
+}
+
+.footer-text{
+    padding: 10px;
+}
+
+.header-container {
+ 
+    width: 60%;
+    height: 50px;
+    position: fixed;
+    z-index: 10000;   
+
+}
+
+.img-a:hover{
+    display: none;
+}
+
+.like:hover{
+    color: red;
+}
+
+.icons{
+color: white;
+
+}
+
+.logo{
+    right: 48%;
+    padding-top: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+
+    padding: 0.5rem;
+   
+
+}
+
+.contact {
+  right: 0;
+  top: 10px;
+}

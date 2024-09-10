@@ -8,17 +8,31 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body class="debug">
+<body class="">
 
 </body>
 
 <!-- #region HEADER -->
 <header>
-    <div class="app-header d-flex jc-center"">
-        <div class="header-container">
-           
+    <div class="app-header d-flex jc-center">
 
+        <div class=" header-container relative d-flex jc-between">
+            <span class="clients d-flex ai-center">
+            <a class="woman " href="#">Donna</a>
+            <a class="men "  href="#">Uomo</a>
+            <a class="kid "  href="#">Bambini</a>
+            </span>
+
+            <img class="logo " height="40" src="./img/boolean-logo.png" alt="logo">
+
+            <span class="icons d-flex ai-center">
+            <img class="user" src="./img/user.png" alt="user">
+            <img class="wishlist" src="./img/heart.png" alt="wishlist">
+            <img class="shop" src="./img/bag.png" alt="shop">
+            
+            </span>
         </div>
+
     </div>
 </header>
 <!-- #endregion HEADER-->
@@ -27,23 +41,98 @@
 <main>
     <div class="app-main d-flex jc-center">
         <div class="main-container d-flex wrap ai-center jc-around">
-            <div class="card one">
-                <p>Lorem, ipsum dolor.</p>
+            <div>
+                <div class="card one relative">
+                    <img class="img-b absolute" src="img/1b.webp" alt="-">
+                    <img class="img-a absolute" src="./img/1.webp" alt="-">
+                    
+                    <span class="discount 50 absolute">-50%</span>
+                    <span class="sostenibility absolute">Sostenibilità</span>
+                    <span class="like d-flex absolute">&hearts;</span>
+                </div>
+                <div class="card-text one">
+                    
+                    <p class="brand">Levi's</p>
+                    <p class="product-name">RELAXED FIT TEE UNISEX</p>
+                    <span class="price">14.99 &#8364;</span>
+                    <span class="old-price">29,99 &#8364;</span>
+
+                </div>
             </div>
-            <div class="card two">
-                <p>Lorem, ipsum dolor.</p>
+
+            <div>
+                <div class="card two relative">
+                    <img class="img-b absolute" src="./img/2b.webp" alt="-">
+                    <img class="img-a absolute" src="./img/2.webp" alt="">
+                    <span class="discount 30 absolute">-30%</span>
+                    <span class="like absolute">&hearts;</span>
+                </div>
+                <div class="card-text two ">
+                    <p class="brand">Guess</p>
+                    <p class="product-name">ROSES TEE</p>
+                    <span class="price">20,99 &#8364;</span>
+                    <span class="old-price">29,99&#8364;</span>
+                </div>
             </div>
-            <div class="card tree">
-                <p>Lorem, ipsum dolor.</p>
+
+            <div>
+                <div class="card tree relative">
+                    <img class="img-b absolute" src="./img/3b.webp" alt="-">
+                    <img class="img-a absolute" src="./img/3.webp" alt="-">
+                    <span class="discount 30 absolute">-30%</span>
+                    <span class="like absolute">&hearts;</span>
+                </div>
+                <div class="card-text tree ">
+
+                    <p class="brand">Come Zucchero Filato</p>
+                    <p class="product-name">VOGLIA DI COLORI PASTELLO</p>
+                    <span class="price">129,99 &#8364;</span>
+                    <span class="old-price">184,99 &#8364;</span></div>
             </div>
-            <div class="card four">
-                <p>Lorem, ipsum dolor.</p>
+
+            <div>
+                <div class="card four relative">
+                    <img class="img-b absolute" src="./img/4b.webp" alt="-">
+                    <img class="img-a absolute" src="./img/4.webp" alt="-">
+                    <span class="discount 50 absolute">-50%</span>
+                    <span class="like absolute">&hearts;</span>
+                    <span class="sostenibility absolute">Sostenibilità</span>
+                </div>
+                <div class="card-text four">
+                    <p class="brand">Levi's</p>
+                    <p class="product-name">TEE UNISEX</p>
+                    <span class="price">14,99 &#8364;</span>
+                    <span class="old-price">29,99 &#8364;</span>
+                </div>
             </div>
-            <div class="card five">
-                <p>Lorem, ipsum dolor.</p>
+
+            <div>
+                <div class="card five relative">
+                    <img class="img-b absolute" src="./img/5b.webp" alt="-">
+                    <img class="img-a absolute" src="./img/5.webp" alt="-">
+                    <span class="like absolute">&hearts;</span>
+                </div>
+                <div class="card-text five ">
+                    <p class="brand">Maya Deluxe</p>
+                    <p class="product-name">STRIP BODICE</p>
+                    <span class="price">99,99</span>
+                    <span class="old-price"></span>
+                </div>
             </div>
-            <div class="card six">
-                <p>Lorem, ipsum dolor.</p>
+
+            <div>
+                <div class="card six relative">
+                    <img class="img-b absolute" src="./img/6b.webp" alt="-">
+                    <img class="img-a absolute" src="./img/6.webp" alt="-">
+                    <span class="like absolute">&hearts;</span>
+                    <span class="sostenibility-six absolute">Sostenibilità</span>
+                </div>
+                <div class="card-text six ">
+                    <p class="brand">Esprit</p>
+                    <p class="product-name">MAGLIONE-BLACK</p>
+                    <span class="price">29,99 &#8364;</span>
+                    <span class="old-price"></span>
+                </div>
             </div>
         </div>
     </div>
@@ -52,8 +141,16 @@
 
 <!-- #region FOOTER -->
 <footer>
-    <div class="app-footer d-flex jc-center"">
-        <div class="footer-container">
+    <div class="app-footer d-flex jc-center">
+        <div class="footer-container relative">
+            <div class="footer-text">
+
+            </div><div class="boolean">Boolean s.r.l</div>
+            <div class="privacy">informazioni legali sulla privacy Diritto di recesso</div>
+
+            <div class="contact absolute">Trovaci su</div>
+            
+
 
         </div>
     </div>
